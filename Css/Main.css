@@ -1,0 +1,358 @@
+*{margin: 0;
+padding: 0;
+}
+.mynav img{ border-radius: 50%;
+}
+.mynav{ background: linear-gradient(to left, black ,#555 , #fff);
+}
+.mynav button{ background-color: black;
+    color: white;
+    border-radius: 25%;
+}
+.home{width: 100%;
+    height: 100vh;
+    background-image: url(../img/pexels-chevanon-photography-302899\ home\ bc.jpg);
+    background-size: 100% 100%;}
+    body{height: 3000px;
+        background-attachment: fixed;
+        background-position: center center;
+        scroll-behavior: smooth;
+    }
+
+
+@media(max-width:700px){.home{background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+.mynav{ background: linear-gradient(to left, black ,#555 , #fff);}
+.mynav button{background-color: white;
+    color: black;}
+    }
+
+    /* About */
+#about{ text-align: center;
+    padding: 50px 0px;
+    background-image: url(../img/pexels-chevanon-photography-324028\ bg.jpg);
+    height: auto;
+    background-size: 100% 100%;
+    text-align: center;
+    background-attachment: fixed;
+    color: white;
+}
+#about .about_header{
+    border-bottom: 2px solid white;
+    width: 30%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#about .about_header h1{
+    color: white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    font-family: sans-serif;
+    border-radius: 15px;
+    font-size: 40px;
+
+}
+
+@media(max-width:700px){
+    #about .about_header h1{ font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    #about .about_header{width: 45%;}
+    }
+
+    #about .aboutimg{
+        padding:25px 0px ;
+    }
+    #about .aboutimg img{ border-radius: 28%;
+    }
+    #about .aboutinfo{
+        padding: 60px 18px;
+    }
+    #products{
+        text-align: center;
+        background:linear-gradient(to right, rgb(219, 7, 226) , #000);
+        color: white;
+        padding: 35px 0px;
+        height: auto;
+    }
+    #products .productsheader{
+        width: 30%;
+        margin: auto;
+        border-radius: 50%;
+    }
+
+#products .productsheader h1{
+    position: relative;
+}
+#products .productsheader h1::after{
+    content: "";
+    background-image: linear-gradient(to right , pink ,white, blue);
+    width: 18%;
+    position: absolute;
+    height: 5px;
+    bottom: 50%;
+    right: 0px;
+    border-radius: 25%;
+    }
+
+    #products .productsheader h1::before{
+        content: "";
+        background-image: linear-gradient(to left , pink ,white, blue);
+        width: 18%;
+        position: absolute;
+        height: 5px;
+        bottom: 50%;
+        left: 0px;
+        border-radius: 25%;
+        }
+
+        @media(max-width:700px){
+            #products .productsheader h1{ font-size: 25px;}
+            #products .productsheader{width: 80%;}
+            .productdata h1{
+                font-size: 20px;
+            }
+        }
+        
+        #products .productinfo img{
+            border:1px dotted white;
+            border-radius: 77%;
+        }
+        .coffiemachines i{ font-size: 25px;
+            color: black;}
+
+            #ouroffers{text-align: center;
+                background: linear-gradient(to right, gray ,black);
+                height: auto;
+                color: white;
+            }
+
+            #ouroffers .ouroffersheader{
+                width: 100%;
+                text-align: right;
+            
+            }
+
+            #ouroffers .ouroffersheader h1{position: relative;}
+
+            #ouroffers .ouroffersheader h1::before{ content: "";
+                width: 85%;
+                height: 5px;
+               background: linear-gradient(to right, pink ,red);
+               position: absolute;
+               left: 0px;
+               bottom: 50%;
+               border-radius: 70%;}
+
+               @media(max-width:700px){
+                #ouroffers .ouroffersheader h1::before{
+                    width: 43%;
+                    height: 3px;}
+                }
+
+                #ouroffers .card{
+                background-color: gray;
+                color: white;
+                margin-top: 10px;
+            }
+            .carousel-inner img{
+                height: 380px;
+            }
+            .card image{
+                height: 300px;
+            }
+
+            /*footer*/
+
+            .site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+            
+
+
+
+            
+                
+               
+
+
+
+        #products .row{
+            width: 100%;
+        }
+        
+
+
+
+    
+
+
+
+
+
+
